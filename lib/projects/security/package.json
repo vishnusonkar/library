@@ -1,0 +1,13 @@
+{
+  "name": "security",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^13.1.0",
+    "@angular/core": "^13.1.0",
+    "@ng-bootstrap/ng-bootstrap": "^5.1.4",
+    "bootstrap": "^4.0.0-beta"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

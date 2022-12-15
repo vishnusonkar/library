@@ -1,0 +1,91 @@
+ body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+     
+
+h6:before,
+h6:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #d6dee4;
+    margin: auto;
+}
+
+h6{
+    display: flex;
+    flex-direction: row;
+}
+
+h3:before,
+h3:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #d6dee4;
+    margin: auto;
+}
+
+h3{
+    display: flex;
+    flex-direction: row;
+}
+.vl {
+    border-left: 2px solid black;
+    height: 200px;
+}
+/* .itemcss{
+    display: flex;
+     justify-content: space-between;
+}
+itemcss::before {
+  content: "";
+}
+
+itemcss::after {
+  content: "";
+} */
+.card{
+   margin: 5%; 
+  
+
+}
+.container-md1{
+    margin-top: 5%;
+
+  margin-right: 15%;
+  margin-left: 15%;
+    border: 1px solid #ffff;
+    box-shadow: 0px 5px 10px 0px #20b2aa;
+    border-radius: 40px;
+    background-color: #0a140a;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+   
+}
+
+.container-md {
+    /* background-image: url(../../../assets/img/work2.jpg); */
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    /* display:block; */
+    position: fixed;
+    padding-bottom: 50px;
+    background-color: #0a140a;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+.container-md2{
+    margin-top: 1%;
+    margin-right: 15%;
+  margin-left: 15%;
+  color: white;
+    text-align: center;
+    border: 1px solid #ffff;
+    box-shadow: 0px 5px 10px 0px #20b2aa;
+    border-radius: 40px;
+    background-color: #0a140a;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}

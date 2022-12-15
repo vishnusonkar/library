@@ -1,0 +1,33 @@
+{
+  "name": "security",
+  "version": "0.0.0-watch+1666287760452",
+  "peerDependencies": {
+    "@angular/common": "^13.1.0",
+    "@angular/core": "^13.1.0",
+    "@ng-bootstrap/ng-bootstrap": "^5.1.4",
+    "bootstrap": "^4.0.0-beta"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/security.mjs",
+  "es2020": "fesm2020/security.mjs",
+  "esm2020": "esm2020/security.mjs",
+  "fesm2020": "fesm2020/security.mjs",
+  "fesm2015": "fesm2015/security.mjs",
+  "typings": "security.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./security.d.ts",
+      "esm2020": "./esm2020/security.mjs",
+      "es2020": "./fesm2020/security.mjs",
+      "es2015": "./fesm2015/security.mjs",
+      "node": "./fesm2015/security.mjs",
+      "default": "./fesm2020/security.mjs"
+    }
+  },
+  "sideEffects": false
+}

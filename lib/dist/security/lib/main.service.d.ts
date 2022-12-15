@@ -1,0 +1,48 @@
+import { HttpClient } from '@angular/common/http';
+import { OnInit } from '@angular/core';
+import * as i0 from "@angular/core";
+export declare class MainService implements OnInit {
+    private http;
+    production: any;
+    apiHost: any;
+    apiPort: any;
+    socketPort: any;
+    loginWithPassword: any;
+    httpUrl: any;
+    hostWithReturnUrl: any;
+    urlPassAcctID: any;
+    urlPassReturnfpath: any;
+    constructor(http: HttpClient);
+    ngOnInit(): void;
+    loginflag: boolean;
+    logoutflag: boolean;
+    b_acct_id: any;
+    allAccounts: never[];
+    componentCode: {};
+    selectedAccount: null;
+    getAllEnvConfig(object: {
+        apiHost: string;
+        apiPort: number;
+        loginWithPassword: boolean;
+        hostApp: any;
+    }): Promise<void>;
+    getRetuenUrlWithAcctID(acct: Number, returnUrl: String): Promise<void>;
+    getCurrentLegalEntity(party: any): Promise<any>;
+    validatePhoneNumber(input_str: any): boolean;
+    validateEmail(input_str: any): boolean;
+    getAllCurrentAccoutns(): Promise<any>;
+    loginERP(obj: any): Promise<any>;
+    generateTokens(data: any): Promise<any>;
+    verfiyTokens(obj: any): Promise<any>;
+    getresourcebyrolecd(obj: any): Promise<any>;
+    getaccountmodule(obj: any): Promise<any>;
+    getAllAssignedComponents(acct_id: any): Promise<any>;
+    getCurrentUserFromAdmin(obj: any): Promise<any>;
+    createloginInfo(obj: any): Promise<any>;
+    getCurrentUserFromMD(obj: any): Promise<any>;
+    sendMsg(mobile: any): Promise<any>;
+    api_key: string;
+    verifyMsg(otp_entered_by_user: any, session_id: any): Promise<boolean>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<MainService, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<MainService>;
+}
